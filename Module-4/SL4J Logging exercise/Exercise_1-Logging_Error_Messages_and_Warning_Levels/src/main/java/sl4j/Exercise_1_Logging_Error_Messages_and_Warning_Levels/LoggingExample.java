@@ -1,0 +1,16 @@
+package sl4j.Exercise_1_Logging_Error_Messages_and_Warning_Levels;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LoggingExample {
+
+    private static final Logger logger = LoggerFactory.getLogger(LoggingExample.class);
+
+    public static void main(String[] args) {
+
+        logger.error("Logget started Successfully");
+
+        logger.warn("This is a message from Logger");
+    }
+}
